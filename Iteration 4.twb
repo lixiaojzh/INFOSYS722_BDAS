@@ -1,0 +1,1177 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20202.20.0415.1946                               -->
+<workbook original-version='18.1' source-build='2020.2.0 (20202.20.0415.1946)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='train42' inline='true' name='federated.0rd6l3217oufvz1e0hyfs13nf3qa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='train42' name='textscan.1e28dfi1e25mfw1670hrr0yobvmx'>
+            <connection class='textscan' directory='D:/University of Auckland/2020/INFOSYS 722 Data Mining and Big Data/Iterations/Iteration 3' filename='train42.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1e28dfi1e25mfw1670hrr0yobvmx' name='train42.csv' table='[train42#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_NZ' separator=','>
+            <column datatype='integer' name='rooms' ordinal='0' />
+            <column datatype='integer' name='v18q' ordinal='1' />
+            <column datatype='integer' name='r4h1' ordinal='2' />
+            <column datatype='integer' name='r4m1' ordinal='3' />
+            <column datatype='integer' name='r4t1' ordinal='4' />
+            <column datatype='integer' name='escolari' ordinal='5' />
+            <column datatype='integer' name='paredblolad' ordinal='6' />
+            <column datatype='integer' name='pisomoscer' ordinal='7' />
+            <column datatype='integer' name='pisocemento' ordinal='8' />
+            <column datatype='integer' name='cielorazo' ordinal='9' />
+            <column datatype='integer' name='epared3' ordinal='10' />
+            <column datatype='integer' name='etecho1' ordinal='11' />
+            <column datatype='integer' name='etecho3' ordinal='12' />
+            <column datatype='integer' name='eviv3' ordinal='13' />
+            <column datatype='integer' name='hogar_nin' ordinal='14' />
+            <column datatype='integer' name='edjefe' ordinal='15' />
+            <column datatype='real' name='meaneduc' ordinal='16' />
+            <column datatype='integer' name='instlevel8' ordinal='17' />
+            <column datatype='real' name='overcrowding' ordinal='18' />
+            <column datatype='integer' name='qmobilephone' ordinal='19' />
+            <column datatype='integer' name='target' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1e28dfi1e25mfw1670hrr0yobvmx' name='train42.csv' table='[train42#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_NZ' separator=','>
+            <column datatype='integer' name='rooms' ordinal='0' />
+            <column datatype='integer' name='v18q' ordinal='1' />
+            <column datatype='integer' name='r4h1' ordinal='2' />
+            <column datatype='integer' name='r4m1' ordinal='3' />
+            <column datatype='integer' name='r4t1' ordinal='4' />
+            <column datatype='integer' name='escolari' ordinal='5' />
+            <column datatype='integer' name='paredblolad' ordinal='6' />
+            <column datatype='integer' name='pisomoscer' ordinal='7' />
+            <column datatype='integer' name='pisocemento' ordinal='8' />
+            <column datatype='integer' name='cielorazo' ordinal='9' />
+            <column datatype='integer' name='epared3' ordinal='10' />
+            <column datatype='integer' name='etecho1' ordinal='11' />
+            <column datatype='integer' name='etecho3' ordinal='12' />
+            <column datatype='integer' name='eviv3' ordinal='13' />
+            <column datatype='integer' name='hogar_nin' ordinal='14' />
+            <column datatype='integer' name='edjefe' ordinal='15' />
+            <column datatype='real' name='meaneduc' ordinal='16' />
+            <column datatype='integer' name='instlevel8' ordinal='17' />
+            <column datatype='real' name='overcrowding' ordinal='18' />
+            <column datatype='integer' name='qmobilephone' ordinal='19' />
+            <column datatype='integer' name='target' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_NZ&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rooms</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[rooms]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>rooms</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>v18q</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[v18q]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>v18q</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>r4h1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[r4h1]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>r4h1</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>r4m1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[r4m1]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>r4m1</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>r4t1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[r4t1]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>r4t1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>escolari</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[escolari]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>escolari</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>paredblolad</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[paredblolad]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>paredblolad</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pisomoscer</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pisomoscer]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>pisomoscer</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pisocemento</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pisocemento]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>pisocemento</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cielorazo</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[cielorazo]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>cielorazo</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>epared3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[epared3]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>epared3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>etecho1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[etecho1]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>etecho1</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>etecho3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[etecho3]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>etecho3</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eviv3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[eviv3]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>eviv3</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hogar_nin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[hogar_nin]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>hogar_nin</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>edjefe</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[edjefe]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>edjefe</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>meaneduc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[meaneduc]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>meaneduc</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>instlevel8</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[instlevel8]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>instlevel8</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>overcrowding</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[overcrowding]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>overcrowding</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>qmobilephone</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[qmobilephone]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>qmobilephone</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>target</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[target]</local-name>
+            <parent-name>[train42.csv]</parent-name>
+            <remote-alias>target</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='train42.csv' datatype='table' name='[__tableau_internal_object_id__].[train42.csv_CBEC3B0327B047F0BEEE364708505A8D]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[meaneduc (数据桶)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='0' formula='[meaneduc]' peg='0' size='1.17' />
+      </column>
+      <column datatype='real' name='[meaneduc]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[target (数据桶)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[target]' peg='0' size='0.714' />
+      </column>
+      <column datatype='integer' name='[target]' role='measure' type='quantitative' />
+      <column-instance column='[target]' derivation='Count' name='[cnt:target:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[target]' derivation='Count' name='[cnt:target:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[target]' derivation='CountD' name='[ctd:target:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[target]' derivation='None' name='[none:target:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[target]' derivation='Sum' name='[sum:target:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:target:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[sum:target:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[cnt:target:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[ctd:target:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[cnt:target:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>31</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>54</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>85</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>91</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>139</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>207</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>326</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>714</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>794</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>44</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>62</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>71</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>115</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>177</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>271</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>380</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>23448</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>48</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>80</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>123</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>160</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>184</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>198</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>296</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>36</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>59</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>97</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>117</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>152</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>224</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>295</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>358</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>939</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>32</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>55</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>87</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>93</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>141</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>204</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>210</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>329</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>833</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>50</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>74</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>81</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>125</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>200</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>300</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>610</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>19</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>42</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>57</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>67</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>110</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>171</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>242</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>349</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>45</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>72</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>118</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>158</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>187</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>275</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>436</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>40</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>65</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>106</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>131</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>167</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>233</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>341</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>29</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>51</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>89</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>132</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>164</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>193</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>201</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>308</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>37</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>61</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>102</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>119</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>155</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>226</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>297</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>746</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>1016</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>38</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>52</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>63</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>103</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>161</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>229</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>323</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>773</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>1197</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>41</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>66</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>109</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>142</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>170</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>236</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>347</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>22</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>43</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>70</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>114</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>149</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>174</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>261</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>364</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>33</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>56</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>95</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>146</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>182</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>214</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>352</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>755</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>853</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>53</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>78</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>90</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>137</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>195</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>205</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>322</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>780</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>46</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>68</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>73</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>120</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>189</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>276</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>526</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>5862</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>39</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>64</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>105</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>129</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>165</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>230</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>339</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>790</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>2667</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>34</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>58</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>96</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>113</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>147</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>217</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>264</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>353</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>897</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>26</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>47</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>69</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>76</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>122</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>197</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>277</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>596</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;新西兰&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='train42.csv' id='train42.csv_CBEC3B0327B047F0BEEE364708505A8D'>
+            <properties context=''>
+              <relation connection='textscan.1e28dfi1e25mfw1670hrr0yobvmx' name='train42.csv' table='[train42#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_NZ' separator=','>
+                  <column datatype='integer' name='rooms' ordinal='0' />
+                  <column datatype='integer' name='v18q' ordinal='1' />
+                  <column datatype='integer' name='r4h1' ordinal='2' />
+                  <column datatype='integer' name='r4m1' ordinal='3' />
+                  <column datatype='integer' name='r4t1' ordinal='4' />
+                  <column datatype='integer' name='escolari' ordinal='5' />
+                  <column datatype='integer' name='paredblolad' ordinal='6' />
+                  <column datatype='integer' name='pisomoscer' ordinal='7' />
+                  <column datatype='integer' name='pisocemento' ordinal='8' />
+                  <column datatype='integer' name='cielorazo' ordinal='9' />
+                  <column datatype='integer' name='epared3' ordinal='10' />
+                  <column datatype='integer' name='etecho1' ordinal='11' />
+                  <column datatype='integer' name='etecho3' ordinal='12' />
+                  <column datatype='integer' name='eviv3' ordinal='13' />
+                  <column datatype='integer' name='hogar_nin' ordinal='14' />
+                  <column datatype='integer' name='edjefe' ordinal='15' />
+                  <column datatype='real' name='meaneduc' ordinal='16' />
+                  <column datatype='integer' name='instlevel8' ordinal='17' />
+                  <column datatype='real' name='overcrowding' ordinal='18' />
+                  <column datatype='integer' name='qmobilephone' ordinal='19' />
+                  <column datatype='integer' name='target' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='工作表 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='train42' name='federated.0rd6l3217oufvz1e0hyfs13nf3qa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0rd6l3217oufvz1e0hyfs13nf3qa'>
+            <column-instance column='[target]' derivation='Count' name='[cnt:target:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[rooms]' derivation='None' name='[none:rooms:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[target]' derivation='None' name='[none:target:qk]' pivot='key' type='quantitative' />
+            <column datatype='integer' name='[rooms]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[target]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <size column='[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[cnt:target:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.6591712236404419' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:target:qk]</rows>
+        <cols>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:rooms:qk]</cols>
+      </table>
+      <simple-id uuid='{C6EA0AAE-71C8-405D-A047-F0A1A117BCA3}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='工作表 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[cnt:target:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>4</bucket>
+          </multibucket>
+        </current-page>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[:Measure Names]</field>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[cnt:target:qk]</field>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:meaneduc (数据桶):qk]</field>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:meaneduc:qk]</field>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:target (数据桶):qk]</field>
+            <field>[federated.0rd6l3217oufvz1e0hyfs13nf3qa].[none:target:qk]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+      </viewpoint>
+      <simple-id uuid='{109228A0-0045-4B85-81C4-4C1F4612C59C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='工作表 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
